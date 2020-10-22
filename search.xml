@@ -6,4 +6,18 @@
     <content><![CDATA[<p>Hello world</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Systemd Service Sample: Hexo Server</title>
+    <url>/blog//systemd-service-sample-hexo-server/</url>
+    <content><![CDATA[<p>Assume that Hexo is already installed, check <a href="https://hexo.io/docs/">Hexo doc</a> for more information.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/systemd/system/hexo-server.service</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><figcaption><span>hexo-server.service</span></figcaption><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Hexo Server</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">User=weili</span><br><span class="line">WorkingDirectory=/home/weili/hexo-blog</span><br><span class="line">ExecStart=hexo server -s -p 8080</span><br><span class="line">Restart=always</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<p>Enable, reload and start service.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> hexo-server.service</span><br><span class="line">sudo service hexo-server start</span><br></pre></td></tr></table></figure>
+
+<p>Check the status.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service hexo-server status</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
 </search>
