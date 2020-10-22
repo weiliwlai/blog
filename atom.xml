@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Weili Lai&#39;s Blog</title>
+  
+  <subtitle>Record my life</subtitle>
+  <link href="https://weiliwlai.github.io/blog/atom.xml" rel="self"/>
+  
+  <link href="https://weiliwlai.github.io/blog/"/>
+  <updated>2020-10-22T04:59:36.000Z</updated>
+  <id>https://weiliwlai.github.io/blog/</id>
+  
+  <author>
+    <name>Weili Lai</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://weiliwlai.github.io/blog/hello-world/"/>
+    <id>https://weiliwlai.github.io/blog/hello-world/</id>
+    <published>2020-10-21T01:05:02.000Z</published>
+    <updated>2020-10-22T04:59:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello world</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hello world&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
