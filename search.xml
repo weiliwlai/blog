@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/blog//hello-world/</url>
-    <content><![CDATA[<p>Hello world</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Systemd Service Sample: Hexo Server</title>
     <url>/blog//systemd-service-sample-hexo-server/</url>
     <content><![CDATA[<p>Assume that Hexo is already installed, check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">Hexo doc<i class="fa fa-external-link-alt"></i></span> for more information.</p>
@@ -27,10 +21,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Invisible Markdown Comment in Hexo Generated Html</title>
+    <title>Hello World</title>
+    <url>/blog//hello-world/</url>
+    <content><![CDATA[<p>Hello world</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Invisible Markdown Comment in Hexo Generated HTML</title>
     <url>/blog//invisible-markdown-comment-in-hexo-generated-html/</url>
     <content><![CDATA[<h3 id="Objective"><a href="#Objective" class="headerlink" title="Objective:"></a>Objective:</h3><p>Preserve comments in markdown source files and the comments are invisible in generated files.</p>
-<h3 id="Trial"><a href="#Trial" class="headerlink" title="Trial"></a>Trial</h3><p>According to the [discussion], I tried the following four formats to markdown source files.</p>
+<h3 id="Trial"><a href="#Trial" class="headerlink" title="Trial"></a>Trial</h3><p>According to the <span class="exturl" data-url="aHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzIwODg1OTgw">discussion<i class="fa fa-external-link-alt"></i></span>, I tried the following four formats to markdown source files.</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="symbol">//</span>]: <span class="link">&lt;&gt; (comment1)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[<span class="symbol">//</span>]: <span class="link"># (commment2)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!--- comment3 --&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- comment4 --&gt;</span></span></span><br></pre></td></tr></table></figure>
 
 <p>Clean and generate.</p>
