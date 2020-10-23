@@ -29,7 +29,7 @@
 <figure class="highlight json"><figcaption><span>updated.code-snippets</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;Hexo front-matter updated&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;scope&quot;</span>: <span class="string">&quot;yaml&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Insert the updated time for hexo&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;prefix&quot;</span>: <span class="string">&quot;hexo-fm-up&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;body&quot;</span>: [</span><br><span class="line">            <span class="string">&quot;updated: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND&quot;</span></span><br><span class="line">        ]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 
-<p>[comment]:#(‘Test comment on github’);</p>
+<p>[comment]: # (‘Test comment on github’);</p>
 <p>Set tab completion to <code>onlySnippets</code>.<br><img src="tab-completion.png" alt="tab completion"></p>
 <p>For more information, check <span class="exturl" data-url="aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20vZG9jcy9lZGl0b3IvdXNlcmRlZmluZWRzbmlwcGV0cyNfY3JlYXRlLXlvdXItb3duLXNuaXBwZXRz">VSCode Doc<i class="fa fa-external-link-alt"></i></span></p>
 <p>Create snippets of the project.<br><img src="config-snippet.gif" alt="config snippet"></p>
