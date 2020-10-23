@@ -9,7 +9,7 @@
   <entry>
     <title>Systemd Service Sample: Hexo Server</title>
     <url>/blog//systemd-service-sample-hexo-server/</url>
-    <content><![CDATA[<p>Assume that Hexo is already installed, check <a href="https://hexo.io/docs/">Hexo doc</a> for more information.</p>
+    <content><![CDATA[<p>Assume that Hexo is already installed, check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">Hexo doc<i class="fa fa-external-link-alt"></i></span> for more information.</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/systemd/system/hexo-server.service</span><br></pre></td></tr></table></figure>
 
 <a id="more"></a>
