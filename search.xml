@@ -21,6 +21,10 @@
 
 <p>Check the status.</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service hexo-server status</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Systemd</tag>
+      </tags>
   </entry>
   <entry>
     <title>Invisible Markdown Comment in Hexo Generated Html</title>
@@ -44,6 +48,7 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Markdown</tag>
+        <tag>Snippet</tag>
       </tags>
   </entry>
   <entry>
@@ -58,5 +63,9 @@
 <p>Create snippets of the project.<br><img src="config-snippet.gif" alt="config snippet"></p>
 <p>Test it.<br><img src="snippet.gif" alt="snippet sample"></p>
 ]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Snippet</tag>
+      </tags>
   </entry>
 </search>
